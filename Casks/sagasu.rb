@@ -4,7 +4,7 @@ cask "sagasu" do
 
   url "https://github.com/kazuph/sagasu/releases/download/v#{version}/Sagasu-#{version}.dmg"
   name "Sagasu"
-  desc "macOS launcher for apps, files, notes, web routes, and clipboard history"
+  desc "Launcher for apps, files, notes, web routes, and clipboard history"
   homepage "https://github.com/kazuph/sagasu"
 
   depends_on arch: :arm64
