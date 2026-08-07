@@ -1,26 +1,26 @@
 class Herdr < Formula
   desc "Terminal workspace manager for AI coding agents"
   homepage "https://github.com/kazuph/herdr"
-  version "0.1.3"
+  version "0.1.4"
   license "AGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.3/herdr-macos-aarch64"
-      sha256 "dfd04fb04bd8ae70528d53f7b385d87d36a91b3483c01ddd87c4ef4f9a7942c7"
+      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.4/herdr-macos-aarch64"
+      sha256 "7250081b3364a6cad188b1fe4f319473ed9243e6e457624e6ae414231257979c"
     else
-      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.3/herdr-macos-x86_64"
-      sha256 "5cf2929ab41221eb4d7b7f63ef0411fab65baaa1ab71e4b6024c612bc5ec3843"
+      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.4/herdr-macos-x86_64"
+      sha256 "0a420636df3131e4cf25b41e50b4af3cfd3752bf6c2879c9cfc0fcd550ee2689"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.3/herdr-linux-aarch64"
-      sha256 "a11aa8f1a8f986d6d2a3e25c7083b0d7539dcd6931b267d4b1aa531745e97b72"
+      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.4/herdr-linux-aarch64"
+      sha256 "6abe0a88b117f49a35038ddee096a5b7d0a321bbcc30d2b615f4ea6c576e8834"
     else
-      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.3/herdr-linux-x86_64"
-      sha256 "77617da2313cca24dc422294d5f2494b43abb4c4439c12a7df3b2328c2bedde9"
+      url "https://github.com/kazuph/herdr/releases/download/kazuph-v0.1.4/herdr-linux-x86_64"
+      sha256 "d6961f5b0524c8789f123c6b9338a51318edee452fd8ca5f13c0d3b534eaff4e"
     end
   end
 
