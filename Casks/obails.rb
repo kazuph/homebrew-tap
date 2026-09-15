@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 cask "obails" do
   version "1.1.2"
   sha256 "8969f27ddb6ca789941d64a467b71b7416af38adda36393cb20c64da0a662d44"
