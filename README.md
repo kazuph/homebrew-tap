@@ -12,7 +12,7 @@ Apple Silicon, macOS 26 or later:
 brew install --cask kazuph/tap/obails
 ```
 
-Update with `brew update && brew upgrade --cask obails`.
+Quit Obails, then update with `brew update && brew upgrade --cask obails`.
 
 If migrating from a manual installation, quit Obails and move only
 `/Applications/obails.app` to the Trash first. Keep your vault and settings.
