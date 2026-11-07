@@ -1,28 +1,28 @@
 class Ikesu < Formula
   desc "Terminal workspace manager for coding agents"
   homepage "https://github.com/kazuph/ikesu"
-  version "0.4.102"
+  version "0.4.103"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.102/ikesu-darwin-arm64"
-      sha256 "9de6e27eb212b5d98f92b4640801c3961afba640502baae578a275d859c87b65"
+      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.103/ikesu-darwin-arm64"
+      sha256 "424d3840aab4e4d2949db9acc1277ab4b73d96ed695864d938f05130e7f9e628"
     end
     on_intel do
-      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.102/ikesu-darwin-amd64"
-      sha256 "0e11e4c36b4ea6235767f42a1ae7b48ea41234ba63a0bcb766f571c0add88857"
+      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.103/ikesu-darwin-amd64"
+      sha256 "935abfc1e83f3f860fb7ea55d26aa74d2f2a7eade98688a6d37e14e0d5a30115"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.102/ikesu-linux-arm64"
-      sha256 "dc985a5a301e0d1c61c34877424ee68964dadd59134c02bd30d2068ae9f31918"
+      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.103/ikesu-linux-arm64"
+      sha256 "7444db4b68270ae62343a9e9f135f752db79c32333df22b53864b6158daff5fb"
     end
     on_intel do
-      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.102/ikesu-linux-amd64"
-      sha256 "332503483816c62b29238b05eb81fbafbb8af8e7a33e50133723ff3d50eade2c"
+      url "https://github.com/kazuph/ikesu/releases/download/ikesu-v0.4.103/ikesu-linux-amd64"
+      sha256 "adee56ced52c37ba00e39cc3ce356c64dccd168507200c34372cdc6ddf73e4b8"
     end
   end
 
