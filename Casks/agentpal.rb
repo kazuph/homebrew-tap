@@ -1,6 +1,6 @@
 cask "agentpal" do
-  version "0.10.0"
-  sha256 "e08ca38205c617560f314292f96181e340406c426552d7cfb4dd8a244085073f"
+  version "0.10.1"
+  sha256 "1702a0a5528187ecd65b2cff58cd043836de98029a4a7ec83b9a16365af34101"
 
   url "https://github.com/kazuph/AgentPal/releases/download/v#{version}/AgentPal-#{version}.dmg"
   name "AgentPal"
