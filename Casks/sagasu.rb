@@ -1,6 +1,6 @@
 cask "sagasu" do
-  version "1.0.6"
-  sha256 "f062a987627892b0733c3a88f7c90ad566ca20ba5dea91f52260ba56f05b5bc7"
+  version "1.0.7"
+  sha256 "b8c12019012c7e3122389d3ab79fb16cd999689f2b618bef6181fa7721834e8c"
 
   url "https://github.com/kazuph/sagasu/releases/download/v#{version}/Sagasu-#{version}.dmg"
   name "Sagasu"
