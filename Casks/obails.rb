@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "obails" do
-  version "1.1.5"
-  sha256 "e57231d118d22b3810febdc87bec859a2c25f4dcf1d46b296c392da97540b68b"
+  version "1.1.6"
+  sha256 "995addaee775b86e62447ea567ac217fd1eeb63a8c2afb3d0e5e97f65276e9d1"
 
   url "https://github.com/kazuph/obails/releases/download/v#{version}/obails-#{version}-macos-arm64.zip"
   name "Obails"
